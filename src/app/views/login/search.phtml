@@ -59,6 +59,7 @@
         <td><?php echo $value->price; ?></td>
         <td><?php echo $value->stock ; ?></td>
         <td>
+          <!-- -------------------------------Action Edit Or Delete Products-------------------------------- -->
             <form action="/login/edit" method="POST">
                 <input type="hidden" name="id_container" value = "<?php echo $value->_id ?>">
                 <button type="submit" name="Edit" class="btn btn-primary">Edit</button>
@@ -68,6 +69,8 @@
                 <button type="submit" name="delete" class="btn btn-danger">Delete</button>
             </form>
             <!-- Button trigger modal -->
+          <!-- -------------------------------Action Edit Or Delete Products-------------------------------- -->
+
             
     </td>
       
